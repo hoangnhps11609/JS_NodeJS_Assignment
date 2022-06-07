@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/slideshow.js"></script>
+    <link rel="stylesheet" href="css/slideshow.css">
+</head>
+<body onload="loadImages()">
+    <div class="container">
+        <div class="title">Bộ sưu tập ảnh</div>
+        <hr>
+        <div class="slideshow">
+            <div class="previous" onclick="previous()">Prev</div>
+            <img src="D:/JS_NodeJS/Assignment/images/hinh1.jpg" id="image" alt="" class="image">
+            <div class="next" onclick="next()">Next</div>
+            <div class="caption" id="caption">Ảnh 1/3</div>
+        </div>
+    </div>
+</body>
+</html>

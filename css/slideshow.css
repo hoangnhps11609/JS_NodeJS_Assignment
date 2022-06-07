@@ -1,0 +1,62 @@
+.container {
+  margin: auto;
+  width: 700px;
+  height: 600px;
+  text-align: center;
+}
+
+.slideshow {
+  position: relative;
+  border: 1px solid violet;
+  border-radius: 10px;
+  box-shadow: 3px 3px darkblue;
+  padding: 10px;
+  text-align: center;
+}
+
+.image {
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.previous,
+.next {
+  position: absolute;
+  width: 60px;
+  height: 35px;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 50%;
+  background-color: cadetblue;
+  box-shadow: 2px 2px turquoise;
+  color:blue;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.previous {
+  top: 40%;
+  left: 30px;
+}
+
+.next {
+  top: 40%;
+  right: 30px;
+}
+
+.caption {
+  font-size: 1.6em;
+  margin-top: 20px;
+  font-weight: bolder;
+  color: yellowgreen;
+}
+
+.title {
+    font-size: 2.6em;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: cornflowerblue;
+  }
+  

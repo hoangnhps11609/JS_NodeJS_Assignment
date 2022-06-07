@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    color:darkblue;
+}
+
+.container{
+    width: 50%;
+    margin:auto
+}
+
+.form-group{
+    margin: 7px;
+    display: block;
+}
+
+.form-label{
+    width: 100px;
+    display:block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-control, 
+.form-control-checkbox, 
+.form-control-select, 
+.form-control-textarea{
+    padding: 5px 10px;
+    border: 1px solid steelblue;
+}
+
+.form-control-textarea{
+    height: 100px
+}
+
+.form-control, 
+.form-control-select, 
+.form-control-textarea{
+    width: 100%;
+}
+
+.form-control-checkbox, .form-control-radio{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.form-control:focus,
+.form-control-checkbox:focus,
+.form-control-radio:focus,
+.form-control-select:focus,
+.form-control-textarea:focus{
+    outline: none !important;
+    order: 1px solid red;
+    box-shadow: 0 0 10px yellowgreen;
+}
+
+.title{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:brown
+}
+
+.btn{
+    border-radius: 10px;
+    height: 35px;
+    width: 70px;
+    background-color: violet;
+    box-shadow: 2px 3px steelblue;
+    border: 1px solid tomato;
+    cursor:pointer;
+    color: white; 
+}
+
+.btn:hover{
+    background-color: beige;
+    box-shadow: 2px 3px aquamarine;
+    cursor: pointer;
+}
+
+.btns{
+    text-align:center;
+}
+
+.border-group{
+    border: 1px solid teal;
+    padding: 5px;
+    width: 100%;
+}
+
+.invalid{
+    background: yellow url("../images/Button-Close-icon.png") no-repeat 97% center;
+}
+
+.invalid-rc{
+    border: 1px solid yellow !important;
+    box-shadow: 0 0 10px yellow;
+}
+
+.valid{
+    color: blueviolet !important;
+    background: turquoise url("../images/ok-icon.png") no-repeat 97% center !important;
+}
